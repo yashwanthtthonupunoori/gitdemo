@@ -17,6 +17,7 @@ public class App
 		System.out.println(driver.getTitle());
 		driver.findElement(By.name("firstname")).click();
 		driver.findElement(By.name("firstname")).sendKeys("hi");
+		System.out.println("hi");
 
 	}
 }
